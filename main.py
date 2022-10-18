@@ -24,9 +24,8 @@ def player_win(player, pc):
         return True
 
 
-print(play())
-while player_win:
-    print(play())
-   
+if __name__=="__main__":
+    for x in range(20):
+        print(play())
 
-
+exit()
